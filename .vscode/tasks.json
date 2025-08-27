@@ -1,0 +1,32 @@
+
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "cppbuild",
+            "label": "task g++",
+            "command": "D:\\Code\\mingw64\\mingw64\\bin\\g++.exe",/*记得修改*/
+            "args": [
+                "-fdiagnostics-color=always",
+                "-g",
+                "${file}",
+                "-o",
+                "${fileDirname}\\build\\${fileBasenameNoExtension}.exe",
+                "-fexec-charset=GBK",
+                "-I",
+                "-std=c++17"
+            ],
+            "options": {
+                "cwd": "D:\\Code\\mingw64\\mingw64\\bin",/*记得修改*/
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "调试器生成的任务。"
+        }
+    ]
+}
