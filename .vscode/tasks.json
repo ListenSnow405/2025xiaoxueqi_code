@@ -5,7 +5,7 @@
         {
             "type": "cppbuild",
             "label": "task g++",
-            "command": "D:\\Code\\mingw64\\mingw64\\bin\\g++.exe",/*记得修改*/
+            "command": "G:\\mingw64\\bin\\g++.exe",/*记得修改*/
             "args": [
                 "-fdiagnostics-color=always",
                 "-g",
@@ -17,7 +17,7 @@
                 "-std=c++17"
             ],
             "options": {
-                "cwd": "D:\\Code\\mingw64\\mingw64\\bin",/*记得修改*/
+                "cwd": "G:\\mingw64\\bin",/*记得修改*/
             },
             "problemMatcher": [
                 "$gcc"

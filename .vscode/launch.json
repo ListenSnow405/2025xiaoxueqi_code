@@ -12,7 +12,7 @@
             "environment": [],
             "externalConsole": false,
             "MIMode": "gdb",
-            "miDebuggerPath": "D:\\Code\\mingw64\\mingw64\\bin\\gdb.exe", /*记得修改，bin目录下的gdb.exe，两个反斜杠\\*/
+            "miDebuggerPath": "G:\\mingw64\\bin\\gdb.exe", /*记得修改，bin目录下的gdb.exe，两个反斜杠\\*/
             "setupCommands": [
                 {
                     "description": "为 gdb 启用整齐打印",
